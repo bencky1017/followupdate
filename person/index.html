@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="将需要追更的电视剧、电影、综艺等时间添加到追更日历表中，方便后续查看每日更新的影视。">
+	<meta name="keywords" content="追更,日历,追更日历,影视"/>
+	<meta name="author" content="BK"/>
+	<!-- <link rel="icon" type="image/png" sizes="70x70" href="img/favicon.png"> -->
+	<title>追更日历</title>
+	<link rel="stylesheet" type="text/css" href="css/followupdate.css">
+
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dad.min.js"></script>
+	<script type="text/javascript" src="js/Sortable.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="js/followupdate.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<div class="background"></div>
+			<div class="header">
+				<div class="header_title">追剧日历</div>
+			</div>
+			<div class="main">
+				<div class="btns">
+					<input type="button" value="编辑" class="btn_edit">
+				</div>
+				<div class="table">
+					<div class="list">
+						<div class="list_title">周一</div>
+						<div class="item-1">1</div>
+						<div class="item-1">2</div>
+						<div class="item-1">3</div>
+						<div class="item-1">4</div>
+						<div class="item-1">6</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周二</div>
+						<div class="item-2">1</div>
+						<div class="item-2">2</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周三</div>
+						<div class="item-3">1</div>
+						<div class="item-3">2</div>
+						<div class="item-3">3</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周四</div>
+						<div class="item-4">1</div>
+						<div class="item-4">2</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周五</div>
+						<div class="item-5">1</div>
+						<div class="item-5">2</div>
+						<div class="item-5">3</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周六</div>
+						<div class="item-6">2</div>
+						<div class="item-6">3</div>
+					</div>
+					<div class="list">
+						<div class="list_title">周日</div>
+						<div class="item-7">1</div>
+						<div class="item-7">2</div>
+						<div class="item-7">3</div>
+						<div class="item-7">4</div>
+						<div class="item-7">6</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('[class*=item]').dad();
+	</script>
+</body>
+</html>
