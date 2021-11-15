@@ -11,11 +11,12 @@
 	<link rel="stylesheet" type="text/css" href="css/followupdate.css">
 
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.dad.min.js"></script>
-	<script type="text/javascript" src="js/Sortable.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.dad.min.js"></script> -->
+	<!-- <script type="text/javascript" src="js/Sortable.min.js"></script> -->
+	<!-- <script type="text/javascript" src="js/jquery-ui.min.js"></script> -->
 	
 	<script type="text/javascript" src="js/followupdate.js"></script>
+	<script type="text/javascript" src="js/data.json"></script>
 	<base target="_blank">
 </head>
 <body>
@@ -29,61 +30,23 @@
 				<div class="btns">
 					<input type="button" value="编辑" class="btn_edit">
 				</div>
-				<div class="table">
-					<div class="list">
-						<div class="list_title">周一</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周二</div>
-						<div class="item-2">
-							<a href="https://v.qq.com/x/cover/mzc00200jijsckl.html">脱口秀大会</a>
-						</div>
-						<div class="item-2">
-							<a href="https://v.qq.com/x/cover/mzc00200d0lutv2/z0040m55pyu.html">国子监</a>
-						</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周三</div>
-						<div class="item-3">
-							<a href="https://v.qq.com/x/cover/mzc00200jijsckl.html">脱口秀大会</a>
-						</div>
-						<div class="item-3">
-							<a href="https://v.qq.com/x/cover/mzc00200d0lutv2/z0040m55pyu.html">国子监</a>
-						</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周四</div>
-						<div class="item-4">
-							<a href="https://v.qq.com/x/cover/mzc00200d0lutv2/z0040m55pyu.html">国子监</a>
-						</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周五</div>
-						<div class="item-5">
-							<a href="https://v.qq.com/x/cover/mzc00200xzrf1up/h0040uuxbf4.html">程序员</a>
-						</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周六</div>
-						<div class="item-6">
-							<a href="https://v.qq.com/x/cover/m441e3rjq9kwpsc/w0040ccpfyo.html">斗罗大陆</a>
-						</div>
-						<div class="item-6">
-							<a href="https://v.qq.com/x/cover/mzc00200xzrf1up/h0040uuxbf4.html">程序员</a>
-						</div>
-					</div>
-					<div class="list">
-						<div class="list_title">周日</div>
-						<div class="item-7">
-							<a href="https://v.qq.com/x/cover/0s8n49g3g1rv1oz/y0040o7pco8.html">星辰变</a>
-						</div>
-					</div>
+				<div class="table"></div>
+			</div>
+		</div>
+		<div class="mask" style="display: none;">
+			<div class="ndd-table">
+				<div class="ndd-t-name">
+					名称：<input type="search" value="" placeholder="名称(5字以内)" onkeyup="value=value.replace(/[\s*]/g,'')" maxlength="5" class="ndd-t-input nti-name">
+				</div>
+				<div class="ndd-t-url">
+					网址：<input type="search" value="" placeholder="网址链接" onkeyup="value=value.replace(/[\s*]/g,'')" class="ndd-t-input nti-url">
+				</div>
+				<div class="ndd-t-btn">
+					<input type="button" value="取消" class="btn-button btn-cancel">
+					<input type="button" value="确认" class="btn-button btn-sure">
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-		$('[class*=item]').dad();
-	</script>
 </body>
 </html>

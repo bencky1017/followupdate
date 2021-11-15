@@ -1,0 +1,51 @@
+last_time="2021年11月15日12:09:59",
+link=
+[
+	{
+		"day":"sunday",
+		"list":[
+			{"url":"https://v.qq.com/x/cover/mzc00200kysajl1/e0041v9x2zi.html","name":"我们的歌3"},
+		]
+	},
+	{
+		"day":"monday",
+		"list":[
+			// {"url":"","name":""},
+		]
+	},
+	{
+		"day":"tuesday",
+		"list":[
+			{"url":"https://www.mgtv.com/b/396330/14700722.html","name":"做朋友也没关系"},
+			{"url":"https://www.iqiyi.com/v_24z8tna25xo.html","name":"机制的恋爱"},
+		]
+	},
+	{
+		"day":"wednesday",
+		"list":[
+			{"url":"https://v.qq.com/x/cover/mzc00200uv2zp5m/j0041o349id.html","name":"超新星运动会"},
+		]
+	},
+	{
+		"day":"thursday",
+		"list":[
+			{"url":"https://v.qq.com/x/cover/mzc00200uv2zp5m/j0041o349id.html","name":"超新星运动会"},
+		]
+	},
+	{
+		"day":"friday",
+		"list":[
+			{"url":"https://www.mgtv.com/b/391993/14771036.html","name":"时光音乐会"},
+			{"url":"https://www.iqiyi.com/v_19jdnkbmwto.html","name":"最后的赢家"},
+			{"url":"https://v.youku.com/v_show/id_XNTIwMDQ3NTY5Ng==.html","name":"中国潮音"},
+			{"url":"https://v.qq.com/x/cover/mzc00200fll10rg/k004158s3jo.html","name":"导演请指教"},
+		]
+	},
+	{
+		"day":"saturday",
+		"list":[
+			{"url":"https://v.qq.com/x/cover/mzc00200fll10rg/k004158s3jo.html","name":"导演请指教"},
+			{"url":"https://v.qq.com/x/cover/m441e3rjq9kwpsc/y00419v3mp4.html","name":"斗罗大陆"},
+		]
+	}
+]
