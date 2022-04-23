@@ -12,8 +12,8 @@ $(function(){
 	/*日期状态*/
 	var getday=new Date().getDay();
 	// getday=getday==0?7:getday; //*0为周日*
-	$('.list').eq(getday).css({'border-color':'yellow'});
-	$('.list_title').eq(getday).css({'color':'yellow'});
+	$('.list').eq(getday).css({'border-color':'yellow'}).siblings().css('border-color','');
+	$('.list_title').eq(getday).css({'color':'yellow'}).siblings().css('border-color','');
 
 	/*资源引用*/
 	for (var i = 0; i < 7; i++) {
