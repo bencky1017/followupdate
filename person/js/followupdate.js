@@ -15,7 +15,7 @@ $(function(){
 		var getday=new Date().getDay();
 		// getday=getday==0?7:getday; //*0为周日*
 		$('.list').eq(getday).css({'border-color':'yellow'}).siblings().css('border-color','');
-		$('.list_title').eq(getday).css({'color':'yellow'}).siblings().css('color','');
+		$('.list_title').eq(getday).css({'color':'yellow'}).siblings().css('color','#fff');
 	}
 
 	/*资源引用*/
